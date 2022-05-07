@@ -6,7 +6,15 @@ header {
     align-items: center;
 
 }
-
+// inserto el fondo de la pagina 
+body{
+    margin: 0;
+    padding: 0;
+    background: url(img/fondo.png);   
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
 .logo{
     display: flex;
     transform: rotateY(360deg);
