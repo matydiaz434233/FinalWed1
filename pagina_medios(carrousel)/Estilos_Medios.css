@@ -1,8 +1,8 @@
 header {
-    display: flex;
-    height: 150px;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
 
 }
 
@@ -10,69 +10,71 @@ header {
 
 
 body{
-    margin: 0;
-    padding: 0;
-    background: url(img/fondo.png);   
-    background-size: cover;
-    background-position: center;
-    font-family: sans-serif;
-    
+  margin: 0;
+  padding: 0;
+  background: url(img/fondo.png);   
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+  
 }
 h3{
-    background-color: rgb(98, 255, 0);
-    color: rgb(16, 15, 15);
+  background-color: rgb(98, 255, 0);
+  color: rgb(16, 15, 15);
 }
 
 
 
 
 .menu {
-    width: 900px;
-    margin: 0 auto;
-  }
-  
-  img {
-    width: 120px;
-    height: 150px;
-    float: left;
-    padding: 8px;
-    display: flex;
-    transform: rotateY(360deg);
-     transition: 2s; 
-  
-  }
-  
-  nav {
-    float: right;
-  }
-  
-  nav ul li {
-    list-style: none;
-    margin-left: 75px;
-    padding: 12px 0;
-    float: left;
-    position: relative;
-  }
-  
-  nav ul li a {
-    text-decoration: none;
-    color: rgb(47, 222, 16);
-    font-weight: bold;
-  }
-  
-  nav ul li a::before {
-    display: block;
-    content: '';
-    width: 0%;
-    background: #444;
-    height: 5px;
-    top:0;
-    position: absolute;
-    transition: width 0.2s;
-  }
-  
-  nav ul li a:hover::before {
-    width: 100%;
-  }
+  width: 900px;
+  margin: 200px;
+}
+
+img {
+  width: 200px;
+  height: 150px;
+  float: left;
+  padding: 8px;
+  display: flex;
+  transform: rotateY(360deg);
+   transition: 2s; 
+
+}
+
+nav {
+  float: right;
+}
+
+nav ul li {
+  list-style: none;
+  margin-left: 75px;
+  padding: 12px 0;
+  float: left;
+  position: relative;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(47, 222, 16);
+  font-weight: bold;
+}
+
+nav ul li a::before {
+  display: block;
+  content: '';
+  width: 0%;
+  background: #444;
+  height: 5px;
+  top:0;
+  position: absolute;
+  transition: width 0.2s;
+}
+
+nav ul li a:hover::before {
+  width: 100%;
+}
+
+
 
 
