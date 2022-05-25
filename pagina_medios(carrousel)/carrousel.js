@@ -12,7 +12,6 @@ next.addEventListener('click', () => {
         index = 0
     }
     else {
-
         index++
     }
     mount()
