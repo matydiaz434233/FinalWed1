@@ -7,6 +7,7 @@ header {
 }
 
 
+/* DISEÑO CUERPO Y TEXTOS*/
 
 
 body{
@@ -91,6 +92,7 @@ h2{
     width: 100%;
   }
 
+/* MEJORO EL MENU*/
 
   .menu > li > a{
     display: block;
@@ -123,8 +125,16 @@ h2{
   }
 
 
+.redes{
+  justify-content: center;
+  border-style: dotted;
+  color: rgb(255, 255, 255);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
-
+.redes.img{
+  justify-content: center;
+}
 
 
 
