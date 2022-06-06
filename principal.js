@@ -23,9 +23,9 @@ botoncito2.addEventListener('click', mostrar2);
 
 
 function mostrar2() {
-    boton2.classList.toggle('showText');
+    boton2.classList.toggle('showText1');
 
-  if(boton2.classList.contains('showText')) {
+  if(boton2.classList.contains('showText1')) {
     botoncito2.innerHTML = 'LEER MENOS'
   }
   else {

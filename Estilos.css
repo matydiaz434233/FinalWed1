@@ -49,6 +49,11 @@ h5 {
   font-size: 150%;
 }
 
+h4 {
+  color: rgb(0, 0, 0);
+  background-color: #2ac911;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
 
 
@@ -57,7 +62,8 @@ p {
   font-family: cursive;
 
 }
-h6{
+
+h6 {
   color: rgb(20, 102, 175);
   font-family: cursive;
   background-color: #4caf50;
@@ -309,5 +315,3 @@ nav ul li a:hover::before {
 .showText1 {
   display: block;
 }
-
-
