@@ -83,15 +83,14 @@ h6 {
   width: 900px;
   margin: 200px;
 }
-
 img {
   width: 200px;
-  height: 150px;
+  height: 110px;
   float: left;
   padding: 8px;
   display: flex;
   transform: rotateY(360deg);
-  transition: 2s;
+  transition: 5s;
 
 }
 
