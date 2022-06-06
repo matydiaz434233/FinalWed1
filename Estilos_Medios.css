@@ -17,7 +17,7 @@ header {
 body {
   margin: 0;
   padding: 0;
-  background: url("imgmedios/fondo.png");
+  background: url("img/fondo\ medio\ liviano.jpg");
   background-size: cover;
   background-position: center;
   font-family: sans-serif;
@@ -60,7 +60,7 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: rgb(47, 222, 16);
+  color: rgb(34, 55, 30);
   font-weight: bold;
 }
 
@@ -88,15 +88,14 @@ nav ul li a:hover::before {
   font-family: sans-serif;
 }
 
-body {
+
+
+.carrousel {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-}
-
-.carrousel {
-  position: relative;
 }
 
 .carrousel .slider {
@@ -128,7 +127,7 @@ body {
   height: 40px;
   line-height: 40px;
   text-align: center;
-  color: #f1f1f1;
+  color: #000000;
   background: rgba(0, 0, 0, 0.5);
   text-transform: capitalize;
 }
@@ -147,8 +146,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #fff;
-  background-color: rgba(255, 255, 255, 0.7);
+  color: rgb(10, 1, 1);
+  background-color: rgba(7, 0, 0, 0.7);
   cursor: pointer;
 }
 
