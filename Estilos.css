@@ -38,8 +38,21 @@ h2{
   margin: 20px;
   font-family: cursive;
 }
+.columnas.htitulos{
+  color: aliceblue;
+  justify-content: center;
+}
+.columnas.hsubtitulos{
+  color: aliceblue;
+
+}
+
+p{
+  color: aliceblue;
+  font-family: cursive;
 
 
+}
 
 
 
