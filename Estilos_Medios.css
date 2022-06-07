@@ -29,7 +29,15 @@ h3 {
   background-color: rgb(98, 255, 0);
   color: rgb(16, 15, 15);
 }
+h5{
+  color: rgb(255, 0, 0);
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  font-size: 250%;
 
+}
 .menu {
   width: 900px;
   margin: 200px;
@@ -99,8 +107,8 @@ nav ul li a:hover::before {
 }
 
 .carrousel .slider {
-  width: 400px;
-  height: 300px;
+  width: 550px;
+  height: 450px;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
 }
 
@@ -140,14 +148,14 @@ nav ul li a:hover::before {
 }
 
 .carrousel .controls .control {
-  width: 40px;
-  height: 40px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: rgb(10, 1, 1);
-  background-color: rgba(7, 0, 0, 0.7);
+  color: rgb(117, 109, 109);
+  background-color: rgba(140, 125, 125, 0.7);
   cursor: pointer;
 }
 
