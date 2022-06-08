@@ -1,25 +1,28 @@
 console.log("Iniciando Javascript de formulario")
 
 var formulario = document.getElementById("formulario")
-var nombre = document.getElementById("nombre")
-var seleccion = document.getElementById("seleccion")
-var mensaje = document.getElementById("mensaje")
+var nombre = document.getElementById("Nombre")
+var Apellido = document.getElementById("Apellido")
+var Numero = document.getElementById("Numero")
+var Correo = document.getElementById("Correo")
+var Comentario = document.getElementById("Comentario")
+//declaro las funciones
 var datos;
-var bolsita = []
-var mostrarDatos = document.getElementById("mostrarDatos")
-
+var conjunto = [];
+var mostrarDatos = document.getElementById("muestrodato");
 formulario.onsubmit = () => onSubmit()
 
 function onSubmit() {
-    //Json!!!!!!
     datos = {
-        nombre: nombre.value,
-        seleccion: seleccion.value,
-        mensaje: mensaje.value,
+        Nombre: Nombre.value,
+        Apellido: Apellido.value,
+        Numero: Numero.value,
+        Correo: Correo.value,
+        Comentario: Comentario.value,
     }
     //---------------------------------------------------------------------------------------------------
     if (validar()) {
-        bolsita.push(datos)
+        conjunto.push(datos)
         verDatos();
         formulario.reset()
         
