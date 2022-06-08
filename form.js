@@ -4,7 +4,7 @@ function enviar() {
         let Apellido = document.getElementById("Apellido");
         let Numero = document.getElementById("#Numero");
         let Correo = document.frm.Correo;
-    let f_seleccion=
+    let f_seleccion=document.fmr.f_seleccion;
         let IncluirunaPagina = document.getElementById("IncluirunaPagina");
         let IncluirunMedio = document.getElementById("IncluirunMedio");
         let Informarunevento = document.getElementById("Informarunevento");
