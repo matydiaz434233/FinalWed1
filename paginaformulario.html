@@ -47,35 +47,47 @@
         </div>
     </header>
 
+	<div class="formulario">
+		<form id="formulario">
+            <h4>Pertenece a la pagina</h4><br>
+            <p>Registrate y nos comunicaremos contigo </p>
+			<div class="titulo"></div>
+			<div>
+				<label class="etiqueta"></label>
+				<i class="fas fa-user"></i>
+				<input type="text" class="controls" name="nombre" id="nombre" class="salida" placeholder="Ingrese su Nombre Completo">
+				<i class="fas fa-exclamation-circle failure-icon" id="incorrecto"></i>
+				<i class="far fa-check-circle success-icon" id="correcto"></i>
+				<div id="" class="error"></div>
+			</div>
+            <div>
+				<label class="etiqueta"></label>
+				<i class="fas fa-user"></i>
+				<input type="text" class="controls" name="edad" id="edad" class="salida" placeholder="Ingrese su Edad">
+				<i class="fas fa-exclamation-circle failure-icon" id="incorrecto"></i>
+				<i class="far fa-check-circle success-icon" id="correcto"></i>
+				<div id="" class="error"></div>
+			</div>
+			<div>
+				<label class="etiqueta"></label>
+				<i class="far fa-envelope"></i>
+				<input type="email" class="controls" name="correo" id="correo" class="salida" placeholder="Ingrese su Correo">
+				<i class="fas fa-exclamation-circle failure-icon" id="incorrecto"></i>
+				<i class="far fa-check-circle success-icon" id="correcto"></i>
+				<div id="" class="error"></div>
+			</div>
+			
+			<div>
+				<button id="btnForm" class="btnForm" type="submit">Registrarme</button>
+			</div>
+		</form>
+	</div>
+	<div id="resultado" class="resultado"></div>
+	<script src="formulario.js"></script>
 
-    <section class="formulario">
-        <form action=""></form>
-        <h4>PERTENECE A LA PAGINA</h4>
-        <p>Completa tus datos para poder publicar tu medio</p>
-        <input class="controls" type="text" name="Nombre" id="Nombre"  placeholder="Ingrese su Nombre">
-        <input class="controls" type="text" name="Apellido" id="Apellido" placeholder="Ingrese su Apellido">
-        <input class="controls" type="number" name="Numero" id="Numero" placeholder="Ingrese su Numero">
-        <input class="controls" type="email" name="Correo" id="Correo" placeholder="Ingrese su Correo">
-        <input class="controls" type="text" name="Comentario" id="Comentario" placeholder="Ingrese su Comentario">
-        <p>Seleccione su proposito</p>
-        <input type="radio" id="IncluirunaPagina" name="f_seleccion" value="IncluirunaPagina">
-        <label for="Incluir una Pagina">Incluir una Pagina</label><br>
-        <input type="radio" id="IncluirunMedio" name="f_seleccion" value="IncluirunMedio">
-        <label for="Incluir un Medio">Incluir un Medio</label><br>
-        <input type="radio" id="Informarunevento" name="f_seleccion" value="Informarunevento">
-        <label for="Informar un evento">Informar un evento</label><br>
-        <input type="radio" id="SolicitarPublicidad" name="f_seleccion" value="SolicitarPublicidad">
-        <label for="Solicitar Publicidad">Solicitar Publicidad</label><br>
-        <input type="radio" id="OTRO" name="f_seleccion" value="OTRO">
-        <label for="OTRO">OTRO</label><br>
-        <input class="botons" type="submit" id="enviar" value="Registrarme">
-        <button class="botons" type="submit" id="enviar" value="Registrarme">Registrarme</button>
 
-        <ul id="listaerrores">
-            
-        </ul>
 
-    </section>
+
 
     <br><br><br><br><br><br>
 
@@ -84,15 +96,17 @@
             <h3>SEGUI al administrador para mas informacion </h3>
             <img src="imgformulario/redes.png" alt="">
             <nav>
-                <li class="items"><a href=https://www.facebook.com/maty.diaz.54/ class="nav-link">FACEBOOK</a></li><br><br>
+                <li class="items"><a href=https://www.facebook.com/maty.diaz.54/ class="nav-link">FACEBOOK</a></li>
+                <br><br>
                 <li class="items"><a href=https://twitter.com/?lang=es class="nav-link">TWITTER</a></li><br><br>
-                <li class="items"><a href=https://www.instagram.com/maty_diaz1/?hl=es-la class="nav-link">INSTAGRAM</a></li><br><br>
+                <li class="items"><a href=https://www.instagram.com/maty_diaz1/?hl=es-la class="nav-link">INSTAGRAM</a>
+                </li><br><br>
             </nav>
 
         </div>
     </header>
 
-    <script src='form.js'></script>
+    <script src='formu.js'></script>
 
 </body>
 

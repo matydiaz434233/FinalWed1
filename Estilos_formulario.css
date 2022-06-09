@@ -77,7 +77,7 @@
 
   .formulario {
     width: 400px;
-    background: #268c28;
+    background: #a11187;
     padding: 30px;
     margin: auto;
     margin-top: 100px;
@@ -90,10 +90,23 @@
   .formulario h4 {
     font-size: 35px;
     margin-bottom: 20px;
+    text-align: center;
     position: relative;
+    border: #152315;
+    color: rgb(0, 255, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
-
-
+ .formulario etiqueta{
+   color: grey;
+ }
+  .formulario p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 40px;
+    color: darkorange;
+  }
 
   .controls {
     width: 100%;
@@ -107,12 +120,7 @@
     color: white;
   }
 
-  .formulario p {
-    height: 40px;
-    text-align: center;
-    font-size: 18px;
-    line-height: 40px;
-  }
+
 
   .formulario a {
     color: white;
@@ -124,7 +132,7 @@
     text-decoration: underline;
   }
 
-  .formulario .botons {
+  .formulario .btnForm {
     width: 100%;
     background: #1f53c5;
     border: none;
@@ -134,6 +142,13 @@
     font-size: 16px;
   }
 
+  .bordeVerde{
+    border: 5px solid green;
+  }
+  
+  .bordeRojo{
+    border: 5px solid red;
+  }
   /* MEJORO EL MENU*/
 
   .menu>li>a {
