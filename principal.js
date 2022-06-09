@@ -1,3 +1,5 @@
+// hago boton  leer mas 
+
 let readMore_btn = document.getElementById('readMore_btn');
 let hideText = document.getElementById('hideText');
 
@@ -7,7 +9,7 @@ readMore_btn.addEventListener('click', mostrar);
 function mostrar() {
   hideText.classList.toggle('showText');
 
-  if(hideText.classList.contains('showText')) {
+  if (hideText.classList.contains('showText')) {
     readMore_btn.innerHTML = 'LEER MENOS'
   }
   else {
@@ -15,6 +17,7 @@ function mostrar() {
   }
 }
 
+// clono y hago  boton leer menos
 
 let botoncito2 = document.getElementById('botoncito2');
 let boton2 = document.getElementById('boton2');
@@ -23,9 +26,9 @@ botoncito2.addEventListener('click', mostrar2);
 
 
 function mostrar2() {
-    boton2.classList.toggle('showText1');
+  boton2.classList.toggle('showText1');
 
-  if(boton2.classList.contains('showText1')) {
+  if (boton2.classList.contains('showText1')) {
     botoncito2.innerHTML = 'LEER MENOS'
   }
   else {

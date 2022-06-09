@@ -29,7 +29,8 @@ h3 {
   background-color: rgb(98, 255, 0);
   color: rgb(16, 15, 15);
 }
-h5{
+
+h5 {
   color: rgb(255, 0, 0);
   font-family: 'Times New Roman', Times, serif;
   text-align: center;
@@ -39,6 +40,7 @@ h5{
   font-weight: bold;
 
 }
+
 .menu {
   width: 900px;
   margin: 200px;

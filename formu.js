@@ -46,7 +46,7 @@ function validar() {
                 cont++;
             } else {
                 error(edad, 1);
-                edad.focus();               
+                edad.focus();
             }
         }
     } else {
@@ -92,7 +92,7 @@ function verDatos() {
     arreglo.forEach(aux => {
         dat = document.createElement("div")
         dat.className = "resultado1"
-        dat.innerHTML = "<p>" + aux.nombre+" de " +aux.edad +" años, nos contactaremos a la brevedad al email: " + aux.correo + "</p>"
+        dat.innerHTML = "<p>" + aux.nombre + " de " + aux.edad + " años, nos contactaremos a la brevedad al email: " + aux.correo + "</p>"
         resultado.appendChild(dat)
     })
 }

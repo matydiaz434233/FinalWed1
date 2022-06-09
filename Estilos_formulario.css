@@ -20,6 +20,7 @@
     background-color: rgb(98, 255, 0);
     color: rgb(16, 15, 15);
   }
+
   /* CLONO MENU*/
 
 
@@ -96,9 +97,9 @@
     color: rgb(0, 255, 0);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
- .formulario etiqueta{
-   color: grey;
- }
+
+
+
   .formulario p {
     height: 40px;
     text-align: center;
@@ -142,13 +143,14 @@
     font-size: 16px;
   }
 
-  .bordeVerde{
+  .bordeVerde {
     border: 5px solid green;
   }
-  
-  .bordeRojo{
+
+  .bordeRojo {
     border: 5px solid red;
   }
+
   /* MEJORO EL MENU*/
 
   .menu>li>a {
