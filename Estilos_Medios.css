@@ -227,8 +227,8 @@ main {
 }
 
 .icon:hover {
-  background-color: #e60073;
-  box-shadow:  0 0 20px #e60073 ;
+  background-color: #04e600;
+  box-shadow:  0 0 20px #119616 ;
 }
 
 .icon:hover:nth-child(2) {
@@ -247,7 +247,7 @@ main {
 }
 
 .icon i {
-  color: #fff;
+  color: rgb(181, 41, 41);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -258,6 +258,7 @@ main {
 svg circle {
   stroke-dasharray: 150;
   transition: all .8s ease-in-out;
+  color: #e60073;
 }
 
 .icon:hover circle {
