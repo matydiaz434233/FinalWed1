@@ -8,7 +8,7 @@ const mount = () => slider_content[index].classList.add('active')
 const unmount = () => slider_content[index].classList.remove('active')
 next.addEventListener('click', () => {
     unmount()
-    if(index >= slider_content.length - 1){
+    if(index >= slider_content.length - 7){
         index = 0
     }
     else {
@@ -20,7 +20,7 @@ next.addEventListener('click', () => {
 prev.addEventListener('click', () => {
     unmount()
     if(index <= 0){
-        index = slider_content.length - 1
+        index = slider_content.length - 7
     }
     else {
         index--
