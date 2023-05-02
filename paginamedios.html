@@ -20,20 +20,23 @@
 
 <body>
     <header>
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="menu">
-                    <div class="col-md-4 text-center"> <a href="paginamedios.html">
+        <div class="menu">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container">
+                    <div > <a class="navbar-brand" href="paginamedios.html">
                             <img src="imgmedios/LOGO MEDIOS.jpeg" alt="">
                         </a>
                     </div>
-
-                    <nav>
-                        <ul>
-                            <li class="col-md-1 text-center"><a href="index.html">Inicio</a></li>
-                            <li class="col-md-1 text-center"><a href="paginamedios.html">Medios</a></li>
-                            <li class="col-md-1 text-center">
-                                <a href="#">Clima</a>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav d-flex justify-content-between w-100">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="paginamedios.html">Medios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Clima</a>
                                 <ul class="bajadademenu">
                                     <li><a href="http://www.clima.sanluis.gob.ar" target="_blank">REM</a></li>
                                     <li><a href="https://www.smn.gob.ar/" target="_blank">Servicio Metereologico
@@ -43,8 +46,8 @@
                                             target="_blank">INTA</a></li>
                                 </ul>
                             </li>
-                            <li class="col-md-1 text-center">
-                                <a href="#">Economia</a>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Economia</a>
                                 <ul class="bajadademenu">
                                     <li><a href="https://www.infobae.com/economia/" target="_blank">INFOBAE</a></li>
                                     <li><a href="https://twitter.com/ValorDolarBlue?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
@@ -52,8 +55,8 @@
                                             Dolar Blue</a></li>
                                 </ul>
                             </li>
-                            <li class="col-md-1 text-center">
-                                <a href="#">QUINIELA</a>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">QUINIELA</a>
                                 <ul class="bajadademenu">
                                     <li><a href="https://www.loteriasmundiales.com.ar/Quinielas/san-luis"
                                             target="_blank">QUINIELA</a></li>
@@ -62,8 +65,8 @@
                                             NUMEROS</a></li>
                                 </ul>
                             </li>
-                            <li class="col-md-1 text-center">
-                                <a href="#">COTIZACIONES</a>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">COTIZACIONES</a>
                                 <ul class="bajadademenu">
                                     <li><a href="https://www.mercadoagroganadero.com.ar/dll/hacienda1.dll/haciinfo000002"
                                             target="_blank">Mercado Agroganadero</a></li>
@@ -71,8 +74,8 @@
                                             target="_blank">Mercado de Granos</a></li>
                                 </ul>
                             </li>
-                            <li class="col-md-1 text-center">
-                                <a href="#">FUTBOL</a>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">FUTBOL</a>
                                 <ul class="bajadademenu">
                                     <li><a href="https://www.google.com.ar/search?q=liga+argentina+2022&ei=qz8EYsiFB7yz5OUPo6ebgA4&ved=0ahUKEwiIh4Ok1fP1AhW8GbkGHaPTBuAQ4dUDCA4&uact=5&oq=liga+argentina+2022&gs_lcp=Cgdnd3Mtd2l6EAMyCwgAEIAEELEDEIMBMgsIABCABBCxAxCDATILCAAQgAQQsQMQgwEyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEOgQIABBHSgQIQRgASgQIRhgAUMEGWMEGYJMIaABwAngAgAFliAFlkgEDMC4xmAEAoAEByAEIwAEB&sclient=gws-wiz#sie=lg;/g/11js6rk1kb;2;/m/04hpk1;mt;fp;1;;"
                                             target="_blank">LIGA
@@ -81,12 +84,103 @@
                                     <li><a href="https://www.tycsports.com" target="_blank">TYC SPORTS</a></li>
                                 </ul>
                             </li>
-                            <li class="col-md-1 text-center"><a href="paginaformulario.html">PERTENECE AQUI</a></li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="paginaformulario.html">PERTENECE AQUI</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+<!-- 
+     <div class="container">
+            <div class="row align-items-center">
+                <div class="menu">
+                    <div class="col-md-4 text-center"> <a href="paginamedios.html">
+                            <img src="imgmedios/LOGO MEDIOS.jpeg" alt="">
+                        </a>
+                    </div>
+                    <nav>
+                        <ul>
+                            <div class="row align-items-center">
+                                <li class="col-md-1 text-center"><a href="index.html">Inicio</a></li>
+                                <li class="col-md-1 text-center"><a href="paginamedios.html">Medios</a></li>
+                                <li class="col-md-1 text-center">
+                                    <a href="#">Clima</a>
+                                    <ul class="bajadademenu">
+                                        <li><a href="http://www.clima.sanluis.gob.ar" target="_blank">REM</a></li>
+                                        <li><a href="https://www.smn.gob.ar/" target="_blank">Servicio Metereologico
+                                                Nacional</a>
+                                        </li>
+                                        <li><a href="https://inta.gob.ar/node/46071/palabra-clave/clima-7062?search=1&search_api_views_fulltext=clima&sort_by=created&sort_order=DESC"
+                                                target="_blank">INTA</a></li>
+                                    </ul>
+                                </li>
+                                <li class="col-md-1 text-center">
+                                    <a href="#">Economia</a>
+                                    <ul class="bajadademenu">
+                                        <li><a href="https://www.infobae.com/economia/" target="_blank">INFOBAE</a></li>
+                                        <li><a href="https://twitter.com/ValorDolarBlue?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+                                                target="_blank">Valor
+                                                Dolar Blue</a></li>
+                                    </ul>
+                                </li>
+                                <li class="col-md-1 text-center">
+                                    <a href="#">QUINIELA</a>
+                                    <ul class="bajadademenu">
+                                        <li><a href="https://www.loteriasmundiales.com.ar/Quinielas/san-luis"
+                                                target="_blank">QUINIELA</a></li>
+                                        <li><a href="https://www.diariouno.com.ar/sociedad/significado-suenos-numeros-09242019_SyMuyl_DB"
+                                                target="_blank">SIGNIFICADO
+                                                NUMEROS</a></li>
+                                    </ul>
+                                </li>
+                                <li class="col-md-1 text-center">
+                                    <a href="#">COTIZACIONES</a>
+                                    <ul class="bajadademenu">
+                                        <li><a href="https://www.mercadoagroganadero.com.ar/dll/hacienda1.dll/haciinfo000002"
+                                                target="_blank">Mercado Agroganadero</a></li>
+                                        <li><a href="https://www.bcr.com.ar/es/mercados/boletin-diario/mercado-de-granos"
+                                                target="_blank">Mercado de Granos</a></li>
+                                    </ul>
+                                </li>
+                                <li class="col-md-1 text-center">
+                                    <a href="#">FUTBOL</a>
+                                    <ul class="bajadademenu">
+                                        <li><a href="https://www.google.com.ar/search?q=liga+argentina+2022&ei=qz8EYsiFB7yz5OUPo6ebgA4&ved=0ahUKEwiIh4Ok1fP1AhW8GbkGHaPTBuAQ4dUDCA4&uact=5&oq=liga+argentina+2022&gs_lcp=Cgdnd3Mtd2l6EAMyCwgAEIAEELEDEIMBMgsIABCABBCxAxCDATILCAAQgAQQsQMQgwEyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEOgQIABBHSgQIQRgASgQIRhgAUMEGWMEGYJMIaABwAngAgAFliAFlkgEDMC4xmAEAoAEByAEIwAEB&sclient=gws-wiz#sie=lg;/g/11js6rk1kb;2;/m/04hpk1;mt;fp;1;;"
+                                                target="_blank">LIGA
+                                                NACIONAL</a></li>
+                                        <li><a href="https://www.ole.com.ar" target="_blank">OLE</a></li>
+                                        <li><a href="https://www.tycsports.com" target="_blank">TYC SPORTS</a></li>
+                                    </ul>
+                                </li>
+                                <li class="col-md-1 text-center"><a href="paginaformulario.html">PERTENECE AQUI</a></li>
+
+                            </div>
+
                         </ul>
                     </nav>
                 </div>
             </div>
         </div>
+
+
+ -->
+
+   
+
+
     </header>
 
     <div class="container">
