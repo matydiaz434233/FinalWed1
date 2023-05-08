@@ -3,6 +3,8 @@ const next = document.querySelector('.next')
 const prev = document.querySelector('.prev')
 let index = 0
 alert("si nesecitas adermicina preciona aceptar")
+alert("RIVER 1 - boca 0")
+
 
 const mount = () => slider_content[index].classList.add('active')
 const unmount = () => slider_content[index].classList.remove('active')
