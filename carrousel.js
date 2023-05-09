@@ -1,6 +1,5 @@
 
-alert("RIVER 1 - boca 0      =>   07/05/2023");
-alert("si nesecitas adermicina preciona aceptar");
+
 const slider_content = document.querySelectorAll(".slider_content");
 const next = document.querySelector(".next");
 const prev = document.querySelector(".prev");
